@@ -1,0 +1,44 @@
+.title{
+    font-family: 'Zen Tokyo Zoo';
+}
+
+.container{
+    background-color: rgb(72, 250, 86);
+    color: rgb(255, 158, 158);
+}
+.info{
+    text-align: center
+}
+
+h1{
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+#tablero{
+    margin: auto;
+    width: 750px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tablero>input{
+    width: 1500px;
+    height: 180px;
+    max-width: 33.33%;
+    font-size: 7em;
+    transition: 0.5s;
+}
+
+#tablero>input:hover{
+    width: 1500px;
+    height: 180px;
+    max-width: 33.33%;
+    font-size: 7em;
+    background-color: rgb(15, 243, 236);
+    color: #f6e28d;
+}
